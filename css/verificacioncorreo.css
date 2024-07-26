@@ -1,0 +1,76 @@
+
+body{
+    font-family: var(--fuente);
+    background-image: linear-gradient(to right top, #64c3f6, #88c6f7, #a3c9f6, #b9cdf3, #cad2f0, #c9d2ef, #c7d3ee, #c6d3ed, #b2cfec, #9acce8, #81c9e0, #69c5d3);    
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+    background: rgba(255, 255, 255,0.8);  
+    border-radius: 30px!important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.776);
+    
+}
+
+.imagen-formulario{
+    background-image: url('../img/verificatucorreo.jpeg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    flex: 0 0 calc(60%);
+    position: relative;
+    
+}
+
+
+@media(min-width:768px){
+    .imagen-formulario{
+        height: auto;
+        background-position: right;
+    }
+
+}
+
+
+@media(min-width:768px){
+    .contenedor-formulario{
+        display: flex;
+    }
+}
+
+.formulario{
+    padding: 50px;
+}
+
+.texto-formulario h2{
+    font-size: 40px;
+    text-align: center;
+}
+.texto-formulario p{
+    font-size: 22px;
+    text-align: left;
+}
+.btn{
+    color: #fff;
+    background: #55d8d1!important;
+    border-color: #368bd6;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    transition: 0.5s ease-in;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700!important;
+    
+ }
+
+.btn:hover{
+        color:rgb(255, 255, 255)!important;
+     
+     }
+

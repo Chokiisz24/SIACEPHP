@@ -1,0 +1,48 @@
+@charset "utf-8";
+body{
+  background-image: url(../img/background.jpg);
+  /* background-image: linear-gradient(to right top, #ffffff, #f7f8ff, #eaf3ff, #daefff, #c6ebff, #c1eafc, #bceaf8, #b8e9f3, #c3eaf0, #cdebee, #d8ebed, #e2ecec); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+  /* background-image: linear-gradient(to right, #e2e8f0, #dbe5f3, #d3e3f6, #cbe0f8, #c3defb,0.5);   */
+  border-radius: 30px;
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); */
+  /* max-width: 700px; */
+
+} 
+.textowhite{
+color: #ffffff;
+display: inline-block;
+vertical-align: bottom;
+position: relative;
+
+}
+.alinear-derecha{
+  float: right;
+  position: relative;
+  }
+
+
+.bd{
+  background-color: linear-gradient(to right,#0575E6,#00F260)!important; 
+  color: white;
+}
+.bgtb{
+background: rgba(255, 255, 255, 0.2)!important;
+
+}
+
+/* Tabla */
+th{
+  background-color: #a0e9f8c2!important;
+  /* border: solid 1px #31D2F2!important; */
+  padding:10px;
+  text-align: center!important;
+}
+td{
+  background-color: #ffffffad!important;
+}
